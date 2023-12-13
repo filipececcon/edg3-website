@@ -1,0 +1,16 @@
+{
+  "name": "EDG3",
+  "version": "1.0.0",
+  "description": "EDG3",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "^1.69.5"
+  },
+  "scripts": {
+    "compile-sass": "sass assets/scss/style.scss  assets/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
