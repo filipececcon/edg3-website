@@ -113,10 +113,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-logo-nav{
-  width: 100% !important;
-  /* border: solid red; */
+  width: 80% !important;
   height: 80px;
   margin-top: -15px;
+  margin-left: 120px;
 }
 
 #header.header-scrolled, #header.header-inner-pages {
@@ -287,12 +287,117 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
+    margin-right: 30px;
     display: block;
   }
   .navbar ul {
     display: none;
   }
+  .hero-text {
+    display: none !important;
+  } 
 }
+
+@media (max-width: 572px) {
+  .mobile-nav-toggle {
+    margin-right: 30px;
+    display: block;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .hero-text {
+    display: none !important;
+  } 
+  .cliens{
+    height: 45px;
+  }
+  .clients-logo{
+    height: 20px;
+    width: 110px;
+  }
+}
+
+@media (max-width: 550px) {
+  .mobile-nav-toggle {
+    margin-right: 30px;
+    display: block;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .hero-text {
+    display: none !important;
+  } 
+  .cliens{
+    height: 45px;
+  }
+  .clients-logo{
+    height: 20px;
+    width: 110px;
+  }
+}
+
+@media (max-width: 549px) {
+  .mobile-nav-toggle {
+    margin-right: 30px;
+    display: block;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .hero-text {
+    display: none !important;
+  } 
+  .cliens{
+    height: 45px;
+  }
+  .clients-logo{
+    height: 20px;
+    width: 84px;
+  }
+}
+
+@media (max-width: 399px) {
+  .mobile-nav-toggle {
+    margin-right: 30px;
+    display: block;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .hero-text {
+    display: none !important;
+  } 
+  .cliens{
+    height: 45px;
+  }
+  .clients-logo{
+    height: 20px;
+    width: 78px;
+  }
+}
+
+@media (max-width: 389px) {
+  .mobile-nav-toggle {
+    margin-right: 30px;
+    display: block;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .hero-text {
+    display: none !important;
+  } 
+  .cliens{
+    height: 45px;
+  }
+  .clients-logo{
+    height: 20px;
+    width: 70px;
+  }
+}
+
 .navbar-mobile {
   position: fixed;
   overflow: hidden;
@@ -379,7 +484,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero-text{
   z-index: 1;
   text-align: start;
-  margin-left: 5%;
+  margin-left: 190px;
 }
 .video-container {
   position: relative;
@@ -419,11 +524,6 @@ h1, h2, h3, h4, h5, h6 {
   top: 40% !important;
 }
 
-@media (max-width:991px){
-  .hero-text {
-    display: none !important;
-  } 
-}
 #hero .container {
   padding-top: 72px;
 }
@@ -660,7 +760,10 @@ section {
 }
 /*--------------------------------------------------------------
 # About Us
+
 --------------------------------------------------------------*/
+
+
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
