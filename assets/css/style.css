@@ -109,13 +109,18 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
+  height: 80px;
 }
 
 .header-logo-nav{
   width: 100% !important;
+  /* border: solid red; */
+  height: 80px;
+  margin-top: -15px;
 }
 
 #header.header-scrolled, #header.header-inner-pages {
+  height: 90px;
   background: rgba(0, 27, 40, 0.98);
 }
 
