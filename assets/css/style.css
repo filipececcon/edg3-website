@@ -296,7 +296,59 @@ h1, h2, h3, h4, h5, h6 {
   .hero-text {
     display: none !important;
   } 
+  .cliens{
+    height: 90px;
+  }
+  .clients-logo{
+    margin-top: 20px;
+    height: 20px;
+    width: 160px;
+  }
 }
+
+@media (max-width: 825x) {
+  .mobile-nav-toggle {
+    margin-right: 30px;
+    display: block;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .hero-text {
+    display: none !important;
+  } 
+  .cliens{
+    height: 90px;
+  }
+  .clients-logo{
+    margin-top: 20px;
+    height: 20px;
+    width: 100px;
+    border: solid red ;
+  }
+}
+
+@media (max-width: 775px) {
+  .mobile-nav-toggle {
+    margin-right: 30px;
+    display: block;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .hero-text {
+    display: none !important;
+  } 
+  .cliens{
+    height: 90px;
+  }
+  .clients-logo{
+    margin-top: 20px;
+    height: 20px;
+    width: 126px;
+  }
+}
+
 
 @media (max-width: 572px) {
   .mobile-nav-toggle {
