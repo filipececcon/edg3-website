@@ -350,7 +350,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-@media (max-width: 572px) {
+@media (max-width: 605px) {
   .mobile-nav-toggle {
     margin-right: 30px;
     display: block;
@@ -362,11 +362,11 @@ h1, h2, h3, h4, h5, h6 {
     display: none !important;
   } 
   .cliens{
-    height: 45px;
+    height: 75px;
   }
   .clients-logo{
     height: 20px;
-    width: 110px;
+    width: 115px;
   }
 }
 
@@ -382,15 +382,15 @@ h1, h2, h3, h4, h5, h6 {
     display: none !important;
   } 
   .cliens{
-    height: 45px;
+    height: 80px;
   }
   .clients-logo{
     height: 20px;
-    width: 110px;
+    width: 100px;
   }
 }
 
-@media (max-width: 549px) {
+@media (max-width: 475px) {
   .mobile-nav-toggle {
     margin-right: 30px;
     display: block;
@@ -402,15 +402,15 @@ h1, h2, h3, h4, h5, h6 {
     display: none !important;
   } 
   .cliens{
-    height: 45px;
+    height: 80px;
   }
   .clients-logo{
     height: 20px;
-    width: 84px;
+    width: 95px;
   }
 }
 
-@media (max-width: 399px) {
+@media (max-width: 450px) {
   .mobile-nav-toggle {
     margin-right: 30px;
     display: block;
@@ -422,15 +422,15 @@ h1, h2, h3, h4, h5, h6 {
     display: none !important;
   } 
   .cliens{
-    height: 45px;
+    height: 70px;
   }
   .clients-logo{
     height: 20px;
-    width: 78px;
+    width: 90px;
   }
 }
 
-@media (max-width: 389px) {
+@media (max-width: 425px) {
   .mobile-nav-toggle {
     margin-right: 30px;
     display: block;
@@ -442,7 +442,27 @@ h1, h2, h3, h4, h5, h6 {
     display: none !important;
   } 
   .cliens{
-    height: 45px;
+    height: 70px;
+  }
+  .clients-logo{
+    height: 20px;
+    width: 75px;
+  }
+}
+
+@media (max-width: 350px) {
+  .mobile-nav-toggle {
+    margin-right: 30px;
+    display: block;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .hero-text {
+    display: none !important;
+  } 
+  .cliens{
+    height: 70px;
   }
   .clients-logo{
     height: 20px;
